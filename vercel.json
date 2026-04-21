@@ -5,6 +5,7 @@
     { "src": "vercel/admin/**", "use": "@vercel/static" }
   ],
   "routes": [
+    { "src": "^/$", "dest": "/vercel/admin/index.html" },
     { "src": "^/admin/?$", "dest": "/vercel/admin/index.html" },
 
     { "src": "^/login$", "dest": "/vercel/api/login.js" },
