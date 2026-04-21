@@ -8,7 +8,7 @@
     { "src": "^/admin/?$", "dest": "/vercel/admin/index.html" },
 
     { "src": "^/login$", "dest": "/vercel/api/login.js" },
-    { "src": "^/register$", "dest": "/vercel/api/register.js" },
+    { "src": "^/register$", "dest": "/vercel/api/login.js" },
     { "src": "^/check_shield$", "dest": "/vercel/api/check_shield.js" },
     { "src": "^/log$", "dest": "/vercel/api/log.js" },
     { "src": "^/verify-tg$", "dest": "/vercel/api/verify-tg.js" },
